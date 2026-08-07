@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  int n,fact=1;
+  int n,f=1;
   printf("enter a number\n");
   scanf("%d",&n);
   while(n!=0)
 {
-fact=n*fact;
+f=n*f;
 n=n-1;
 }
-printf("factorial=%d\n",fact);
+printf("factorial=%d\n",f);
 }
