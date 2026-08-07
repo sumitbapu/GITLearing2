@@ -1,4 +1,4 @@
 #include<stdio.h>
 int main(){
-    printf("Welcome to GIT & GITHUB");
+    printf("Welcome to conflict handling in GIT");
 }
