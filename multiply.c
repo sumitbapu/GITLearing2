@@ -1,5 +1,9 @@
 #include<stdio.h>
 int main(){
-  int a=25, b=3;
-  printf("a*b=%d\n",a*b);
+  int a,b;
+  printf("enter 1st number\n");
+  scanf("%d",&a);
+  print("enter 2nd number\n");
+  scanf("%d",&b);
+  printf("multiplication result=%d\n",a*b);
 }
